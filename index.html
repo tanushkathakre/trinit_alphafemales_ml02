@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Harassment Forum</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fbfmcms.s3.ap-southeast-1.amazonaws.com%2Fwebsiteimages%2Ftoday-i-learned%2F2022-07-26_anti-sexual-harassment-bill-from-conception-to-parliament%2Fog_5043dc55-2652-487a-b040-efac8ba1c430.png&tbnid=xGXL5tXwFzDMQM&vet=12ahUKEwiPiIrtyOeEAxUmxzgGHaNFDj4QMygcegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.bfm.my%2Fpodcast%2Fbigger-picture%2Ftoday-i-learned%2Fanti-sexual-harassment-bill-from-conception-to-parliament&docid=amGmrfwSQyFy_M&w=1195&h=625&q=anti%20sexual%20harassment&ved=2ahUKEwiPiIrtyOeEAxUmxzgGHaNFDj4QMygcegQIARBp'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+textarea {
+    width: calc(100% - 40px); /* Adjust textarea width */
+    max-width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+h2, p {
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Anti-Harassment Forum</h1>
+        <form method="post">
+            <label for="input_text">Enter Your Harassment Complaint:</label><br>
+            <textarea id="input_text" name="input_text" placeholder="Type your complaint here..."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        {% if predicted_categories %}
+            <h2>Input Text: </h2>
+            <p>{{ input_text }}</p>
+            <h2>Predicted Categories:</h2>
+            <p>{{ predicted_categories }}</p>
+            <h2>Top Features:</h2>
+            <p>{{ top_features }}</p>
+        {% endif %}
+        <footer>
+        <p>&copy; 2024 Anti-Harassment Forum</p>
+    </footer>
+    </div>
+</body>
+</html>
