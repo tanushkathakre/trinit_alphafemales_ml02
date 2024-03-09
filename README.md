@@ -23,4 +23,9 @@ The Sexual Harassment Forum is a platform designed to provide a safe space for i
 - **Explainable AI (XAI) Model with SHAP**:
   - Utilizes SHAP (SHapley Additive exPlanations) to provide explainable AI insights.
   - Shows SHAP values and identifies top factors responsible for decision making in the model.
+ 
+    ![Alt Text](img1.jpg)
+    ![Alt Text](img2.jpg)
+
+
 
