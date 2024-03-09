@@ -1,0 +1,6 @@
+Flask
+pandas
+numpy
+nltk
+scikit-learn
+shap
