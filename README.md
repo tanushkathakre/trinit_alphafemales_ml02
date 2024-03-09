@@ -26,6 +26,8 @@ The Sexual Harassment Forum is a platform designed to provide a safe space for i
  
     ![Alt Text](img1.jpg)
     ![Alt Text](img2.jpg)
-
+    
+-Video attached below :
+https://drive.google.com/file/d/1eHCtWg2l4BxJZRnchKUJEMrJumcrvzRV/view?usp=drivesdk 
 
 
